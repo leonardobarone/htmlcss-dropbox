@@ -1,103 +1,170 @@
 /* Reset */
-*{
+
+*
+{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 /* Typo */
+
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 1000px;
 }
+
 header{
     font-size: 14px;
 }
 
 /* Common */
+
+.w-70{
+    width: 70%;
+}
+
+.w-33{
+    width: calc(100%/3);
+    border: 1px solid black;
+}
+
+.w-100{
+    width: 100%;
+    border: 1px solid red;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
 .left{
     float: left;
 }
+
 .right{
     float: right;
 }
+
 a{
     text-decoration: none;
 }
 
+a.btn{
+    display: inline-block;
+}
+
+.btn{
+    padding: 4px 10px;
+}
+
+.btn.btn-blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+}
+
 /* Header */
+
 header{
     padding: 10px;
     background-color: white;
     border: 1px solid black;
 }
+
 .left .logo-header,
 .left .nav-header li{
     margin-right: 10px;
 }
+
 .right a.btn,
 .right .nav-header li{
     margin-left: 10px;
 }
+
 .logo-header{
     vertical-align: middle;
 }
+
 .left > .nav-header,
 .right > .nav-header{
     vertical-align: normal;
 }
+
 .logo-header,
 .nav-header,
 .nav-header li{
     display: inline-block;
 }
-.nav-header li a
-{
+
+.nav-header li a{
     color: black;
 }
-a.btn{
-    display: inline-block;
-}
-.btn
-{
-    padding: 4px 10px;
-}
-.btn.btn-blue{
-    background-color: #0061ff;
-    color: white;
-}
+
 /* Div Hero */
+
 .hero{
     background-color: #b4d0e7;
     border: 1px solid black;
+    margin-bottom: 100px;
 }
+
 h1{
     font-size: 48px;
 }
+
 .container{
-    width: 80%;
     margin: 0 auto;
     border: 1px solid black;
 }
+
 .hero .right img{
     width: 100%;
 }
-.w-60{
-    width: 60%;
-}
-.w-40{
-    width: 40%;
-}
+
 .down-50{
     position: relative;
     bottom: -50px;
 }
+
 .hero .container h1,
 .hero .container p,
 .hero .container a.btn{
     margin-bottom: 15px;
+}
+/* Main */
+
+.title-plan{
+    text-align: center;
+    border: 2px solid blue;
+    padding: 8px 0px;
+}
+
+.link-old-style a
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+.link-old-style
+{
+    border-style: 
+}
+
+.lista li
+{
+    list-style: none;
 }
