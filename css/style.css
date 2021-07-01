@@ -1,11 +1,66 @@
-/* Reset  */
+/* Reset */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* Typo */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Common */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    padding: 10px;
+    background-color: aqua;
+}
+.left .logo-header,
+.left .nav-header li{
+    margin-right: 10px;
+}
+a.btn{
+    display: inline-block;
+}
+.right a,
+.right .nav-header li{
+    margin-left: 10px;
+}
+.logo-header{
+    vertical-align: middle;
+}
+.left > .nav-header,
+.right > .nav-header{
+    vertical-align: normal;
+}
+.logo-header,
+.nav-header,
+.nav-header li{
+    display: inline-block;
+}
+.nav-header li a
+{
+    color: black;
+}
+.btn
+{
+    background-color: white;
+    padding: 2px 6px;
+}
+
