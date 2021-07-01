@@ -9,6 +9,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    font-size: 14px;
+}
 
 /* Common */
 .clearfix::after{
@@ -29,7 +32,8 @@ a{
 /* Header */
 header{
     padding: 10px;
-    background-color: aqua;
+    background-color: white;
+    border: 1px solid black;
 }
 .left .logo-header,
 .left .nav-header li{
@@ -38,7 +42,7 @@ header{
 a.btn{
     display: inline-block;
 }
-.right a,
+.right a.btn,
 .right .nav-header li{
     margin-left: 10px;
 }
@@ -60,7 +64,9 @@ a.btn{
 }
 .btn
 {
-    background-color: white;
-    padding: 2px 6px;
+    background-color: #0061ff;
+    border-style: none;
+    color: white;
+    padding: 2px 8px;
 }
 
