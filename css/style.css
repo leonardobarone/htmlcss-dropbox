@@ -25,9 +25,15 @@ header{
 }
 
 .w-33{
-    width: calc(100%/3);
+    width: calc((100%/3) - 20px);
     border: 1px solid black;
 }
+
+.centrale
+{
+    margin: 0px 30px;
+}
+
 
 .w-100{
     width: 100%;
@@ -81,8 +87,12 @@ a.btn{
 
 header{
     padding: 10px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
     background-color: white;
-    border: 1px solid black;
 }
 
 .left .logo-header,
@@ -99,11 +109,6 @@ header{
     vertical-align: middle;
 }
 
-.left > .nav-header,
-.right > .nav-header{
-    vertical-align: normal;
-}
-
 .logo-header,
 .nav-header,
 .nav-header li{
@@ -118,8 +123,7 @@ header{
 
 .hero{
     background-color: #b4d0e7;
-    border: 1px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 h1{
@@ -128,16 +132,15 @@ h1{
 
 .container{
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .hero .right img{
     width: 100%;
 }
 
-.down-50{
+.down-75{
     position: relative;
-    bottom: -50px;
+    bottom: -75px;
 }
 
 .hero .container h1,
@@ -159,12 +162,12 @@ h1{
     color: blue;
 }
 
-.link-old-style
-{
-    border-style: 
-}
-
 .lista li
 {
     list-style: none;
 }
+.mt-5
+{
+    margin-top: 200px;
+}
+
