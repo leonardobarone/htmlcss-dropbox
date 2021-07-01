@@ -64,7 +64,7 @@ a.btn{
 }
 .btn
 {
-    padding: 2px 8px;
+    padding: 4px 10px;
 }
 .btn.btn-blue{
     background-color: #0061ff;
@@ -75,6 +75,9 @@ a.btn{
     background-color: #b4d0e7;
     border: 1px solid black;
 }
+h1{
+    font-size: 48px;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -83,10 +86,18 @@ a.btn{
 .hero .right img{
     width: 100%;
 }
-.w-50{
-    width: 50%;
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
 }
 .down-50{
     position: relative;
     bottom: -50px;
+}
+.hero .container h1,
+.hero .container p,
+.hero .container a.btn{
+    margin-bottom: 15px;
 }
