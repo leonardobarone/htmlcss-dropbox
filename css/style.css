@@ -64,9 +64,11 @@ a.btn{
 }
 .btn
 {
-    background-color: #0061ff;
-    border-style: none;
-    color: white;
     padding: 2px 8px;
 }
+.btn.btn-blue{
+    background-color: #0061ff;
+    color: white;
+}
+/* Div Hero */
 
