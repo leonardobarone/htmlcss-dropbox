@@ -39,9 +39,6 @@ header{
 .left .nav-header li{
     margin-right: 10px;
 }
-a.btn{
-    display: inline-block;
-}
 .right a.btn,
 .right .nav-header li{
     margin-left: 10px;
@@ -62,6 +59,9 @@ a.btn{
 {
     color: black;
 }
+a.btn{
+    display: inline-block;
+}
 .btn
 {
     padding: 2px 8px;
@@ -71,4 +71,22 @@ a.btn{
     color: white;
 }
 /* Div Hero */
-
+.hero{
+    background-color: #b4d0e7;
+    border: 1px solid black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.hero .right img{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.down-50{
+    position: relative;
+    bottom: -50px;
+}
