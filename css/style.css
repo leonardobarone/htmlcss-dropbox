@@ -1,5 +1,4 @@
-/* Reset */
-
+/* RESET */
 *
 {
     margin: 0px;
@@ -7,22 +6,37 @@
     box-sizing: border-box;
 }
 
-/* Typo */
-
-body{
+/* TYPO */
+body
+{
     font-family: 'Open Sans', sans-serif;
-    /* da togliere */
-    height: 1000px;
 }
 
-header{
-    font-size: 14px;
+/* COMMON */
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-/* Common */
+.left
+{
+    float: left;
+}
 
-.w-70{
-    width: 70%;
+.right
+{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w-30
+{
+    width: 30%;
 }
 
 .w-33{
@@ -34,64 +48,45 @@ header{
     margin: 0px 30px;
 }
 
-
-.w-100{
-    width: 100%;
-    border: 1px solid red;
-}
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
-}
-
-a{
-    text-decoration: none;
-}
-
-a.btn,
-a.bnt-long{
-    display: inline-block;
-}
-
-.btn{
-    padding: 4px 10px;
-}
-.btn-long
+.w-60
 {
-    padding: 6px 25px;
-}
-
-.btn.btn-blue,
-.btn-long.btn-blue{
-    background-color: #0061ff;
-    color: white;
-}
-
-.w-80{
-    width: 80%;
-}
-
-.w-60{
     width: 60%;
 }
 
-.w-40{
-    width: 40%;
+.w-70
+{
+    width: 70%;
 }
 
-/* Header */
+.w-80
+{
+    width: 80%;
+}
 
-header{
+.w-90
+{
+    max-width: 90%;
+}
+
+.w-100
+{
+    width: 100%;
+}
+
+.container
+{
+    margin: 0 auto;
+}
+
+.relative
+{
+    position: relative;
+}
+
+/* HEADER */
+header
+{
+    font-size: 14px;
     padding: 10px;
     border-bottom: 1px solid black;
     position: fixed;
@@ -101,119 +96,25 @@ header{
     background-color: white;
 }
 
-.left .logo-header,
-.left .nav-header li{
-    margin-right: 10px;
-}
-
-.right a.btn,
-.right .nav-header li{
-    margin-left: 10px;
-}
-
-.logo-header{
-    vertical-align: middle;
-}
-
-.logo-header,
+.nav-header li,
 .nav-header,
-.nav-header li{
+.logo-header,
+.button-header
+{
     display: inline-block;
 }
 
-.nav-header li a{
-    color: black;
-}
-
-/* Div Hero */
-
-.hero{
-    background-color: #b4d0e7;
-    margin-bottom: 150px;
-}
-
-h1{
-    font-size: 48px;
-}
-
-.container{
-    margin: 0 auto;
-}
-
-.hero .right img{
-    width: 100%;
-}
-
-.down-75{
-    position: relative;
-    bottom: -75px;
-}
-
-.hero .container h1,
-.hero .container p,
-.hero .container a.btn{
-    margin-bottom: 15px;
-}
-/* Main */
-
-.title-plan{
-    text-align: center;
-    border: 1px solid lightgrey;
-    padding: 8px 0px;
-}
-
-.link-old-style a
+.nav-header,
+.button-header,
+header .left img
 {
-    text-decoration: underline;
-    color: blue;
-}
-.mt-5
-{
-    margin-top: 200px;
+    vertical-align: middle;
 }
 
-.title-plan{
-    border: 1px solid lightgrey;
-}
-
-.first-plan-column .body-plan,
-.second-plan-column .body-plan,
-.third-plan-column .body-plan,
-.fourth-plan-column .body-plan
+a.btn
 {
-    padding: 15px;
-    border-bottom: 1px solid lightgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-}
-
-.first-plan-column .body-plan,
-.second-plan-column .body-plan,
-.third-plan-column .body-plan
-{
-    min-height: 600px;
-}
-
-.body-plan h1,
-.body-plan .price-plan,
-.body-plan .button a,
-.body-plan h3
-{
-    margin: 10px 0px;
-}
-.centro{
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.plan-list li
-{
-    list-style: none;
-}
-
-.grey
-{
-    color: grey;
+    padding: 5px 10px;
+    display: inline-block;
 }
 
 .blue
@@ -221,20 +122,139 @@ h1{
     color: #0061ff;
 }
 
-.body-plan .plan-list li
+.btn-blue
 {
-    margin: 15px 0px;
-}
-.mb
-{
-    margin-bottom: 40px;
+    background-color: #0061ff;
+    color: white;    
 }
 
-.body-plan hr
+.button-header,
+.right .nav-header li
 {
-    margin-top: 30px;
+    margin-left: 10px;
 }
-.plans form,
-.plans h2{
+
+.logo-header,
+.left .nav-header li
+{
+    margin-right: 10px;
+}
+
+.nav-header li a
+{
+    color: black;
+}
+
+/* LANDING */
+.landing
+{
+    background-color: #b4d0e7;
+}
+
+.landing h1{
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+.image-landing
+{
+    width: calc(70% - 50px);
+    margin-left: 50px;
+}
+
+.landing .container
+{
+    position: relative;
+    bottom: -75px;
+}
+
+.description-landing p,
+.description-landing .cancelar
+{
+    margin-bottom: 15px;
+}
+
+.description-landing a
+{
+    margin-bottom: 5px;
+}
+
+/* TARIFFE */
+.tariffe .container
+{
+    background-color: whitesmoke;
+    height: 1000px;
+    margin-top: 125px;
+}
+
+.title-tariffe h2{
     margin-bottom: 25px;
+}
+
+.title-tariffe form
+{
+    margin-bottom: 20px;
+}
+
+.column-tariffe .title-column
+{
+    text-align: center;
+    padding: 5px 0px;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.column-tariffe .body-column
+{
+    border: 1px solid lightgray;
+    padding: 0px 20px;
+}
+
+a.btn-long
+{
+    padding: 5px 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.link-old-style
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.column-tariffe li
+{
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.column-tariffe hr
+{
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+.column-tariffe em
+{
+    color: lightgray;
+}
+
+
+.column-tariffe .price-tariffe,
+.column-tariffe ul,
+
+.column-tariffe .link-vecchio-stile,
+a.btn-long.btn-blue
+{
+    margin-top: 10px;
+}
+
+.column-tariffe h3,
+.column-tariffe h4,
+.column-tariffe hr
+{
+    margin-top: 20px;
 }
