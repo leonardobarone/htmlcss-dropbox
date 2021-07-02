@@ -83,6 +83,37 @@ a{
     position: relative;
 }
 
+a.btn-long
+{
+    padding: 5px 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.link-old-style
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+a.btn
+{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.blue
+{
+    color: #0061ff;
+}
+
+.btn-blue
+{
+    background-color: #0061ff;
+    color: white;    
+}
+
 /* HEADER */
 header
 {
@@ -109,23 +140,6 @@ header
 header .left img
 {
     vertical-align: middle;
-}
-
-a.btn
-{
-    padding: 5px 10px;
-    display: inline-block;
-}
-
-.blue
-{
-    color: #0061ff;
-}
-
-.btn-blue
-{
-    background-color: #0061ff;
-    color: white;    
 }
 
 .button-header,
@@ -182,9 +196,7 @@ a.btn
 /* TARIFFE */
 .tariffe .container
 {
-    background-color: whitesmoke;
-    height: 1000px;
-    margin-top: 125px;
+    margin-top: 175px;
 }
 
 .title-tariffe h2{
@@ -207,22 +219,8 @@ a.btn
 
 .column-tariffe .body-column
 {
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
     padding: 0px 20px;
-}
-
-a.btn-long
-{
-    padding: 5px 10px;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-}
-
-.link-old-style
-{
-    color: blue;
-    text-decoration: underline;
 }
 
 .column-tariffe li
@@ -242,7 +240,6 @@ a.btn-long
     color: lightgray;
 }
 
-
 .column-tariffe .price-tariffe,
 .column-tariffe ul,
 
@@ -257,4 +254,19 @@ a.btn-long.btn-blue
 .column-tariffe hr
 {
     margin-top: 20px;
+}
+
+.column-tariffe.w-33 .body-column
+{
+    height: 900px;
+}
+
+.footer-tariffe
+{
+    margin: 20px 0px;
+}
+
+.footer-tariffe p
+{
+    margin: 10px 0px 20px 0px;
 }
