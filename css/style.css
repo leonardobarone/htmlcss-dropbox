@@ -306,3 +306,29 @@ a.btn-long.btn-blue
 {
     margin: 15px 0px;
 }
+
+/* OPERAZIONI */
+.operazioni > .container:first-child
+{
+    margin-top: 100px;
+}
+
+.operazioni > .container:last-child
+{
+    margin-top: 50px;
+}
+
+section.operazioni h3
+{
+    margin: 15px 0px;
+}
+
+section.operazioni span
+{
+    text-decoration: underline;
+}
+
+section.operazioni
+{
+    margin-bottom: 200px;
+}
