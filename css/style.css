@@ -53,6 +53,10 @@ a{
 {
     margin: 0px 30px;
 }
+.w-40
+{
+    width: 40%;
+}
 
 .w-50
 {
@@ -92,6 +96,11 @@ a{
 .relative
 {
     position: relative;
+}
+
+.absolute
+{
+    position: absolute;
 }
 
 a.btn-long
@@ -330,5 +339,60 @@ section.operazioni span
 
 section.operazioni
 {
-    margin-bottom: 200px;
+    margin-bottom: 125px;
 }
+
+/* TEAM */
+.team .container h2,
+.team .container .link-vecchio-stile
+{
+    margin-bottom: 20px;
+}
+
+.column-team
+{
+    border: 1px solid black;
+}
+
+.square
+{
+    height: 200px;
+    width: 200px;
+}
+
+.verde
+{
+    background-color: green;
+}
+
+.giallo
+{
+    background-color: yellow;
+}
+
+.blu
+{
+    background-color: blue;
+}
+
+.rosso
+{
+    background-color: red;
+}
+
+.square
+{
+    height: 0;
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.square img
+{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
