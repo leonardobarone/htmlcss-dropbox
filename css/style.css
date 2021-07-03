@@ -20,6 +20,12 @@ body
     clear: both;
 }
 
+
+.d-block
+{
+    display: block;
+}
+
 .left
 {
     float: left;
@@ -46,6 +52,11 @@ a{
 .centrale
 {
     margin: 0px 30px;
+}
+
+.w-50
+{
+    width: 50%;
 }
 
 .w-60
@@ -112,6 +123,13 @@ a.btn
 {
     background-color: #0061ff;
     color: white;    
+}
+
+.btn-white
+{
+    background-color: white;
+    color: black;
+    border: 2px solid lightgray;  
 }
 
 /* HEADER */
@@ -246,7 +264,7 @@ header .left img
 .column-tariffe .link-vecchio-stile,
 a.btn-long.btn-blue
 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .column-tariffe h3,
@@ -269,4 +287,22 @@ a.btn-long.btn-blue
 .footer-tariffe p
 {
     margin: 10px 0px 20px 0px;
+}
+
+/* PARTNER */
+.partner > .container
+{
+    margin-top: 100px;
+}
+
+.title-partner
+{
+    padding: 30px;
+}
+
+.title-partner h3,
+.title-partner p,
+.title a
+{
+    margin: 15px 0px;
 }
