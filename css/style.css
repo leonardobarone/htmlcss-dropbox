@@ -40,6 +40,11 @@ a{
     text-decoration: none;
 }
 
+.w-20
+{
+    width: 20%;
+}
+
 .w-30
 {
     width: 30%;
@@ -126,6 +131,11 @@ a.btn
 .blue
 {
     color: #0061ff;
+}
+
+.grey
+{
+    color: grey;
 }
 
 .btn-blue
@@ -488,3 +498,39 @@ section.faq
 {
     padding-right: 25px;
 }
+
+/* FOOTER */
+footer
+{
+    background-color: black;
+    color: white;
+    padding-bottom: 60px;
+}
+
+footer .footer-top
+{
+    padding: 60px 0px;
+}
+
+footer li
+{   
+    list-style: none;
+    margin: 10px 0px;
+}
+
+footer h3{
+    margin: 15px 0px;
+}
+
+footer hr
+{
+    width: 10%;
+    border: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.ita 
+{
+    margin: 0px 5px;
+}
+
