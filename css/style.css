@@ -138,6 +138,9 @@ a.btn
 {
     background-color: white;
     color: black;
+}
+
+.btn-white-border{
     border: 2px solid lightgray;  
 }
 
@@ -347,7 +350,6 @@ section.operazioni
 section.team > .clearfix
 {
     background-color: #f5f5f5;
-    margin-bottom: 200px;
 }
 
 .team .container h2
@@ -443,4 +445,16 @@ section.team > .clearfix
 .center p
 {
     margin-bottom: 20px;
+}
+
+/* TRY */
+section.try
+{
+    background-color: #b4d0e7;
+    padding: 100px 0px;
+}
+
+section.try
+{
+    color: #61082b;
 }
