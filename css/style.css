@@ -458,3 +458,33 @@ section.try
 {
     color: #61082b;
 }
+
+/* FAQ */
+section.faq
+{
+    margin: 100px 0px;
+}
+
+.faq li
+{
+    list-style: none;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    padding: 25px 0px;
+}
+
+.faq li:first-child
+{
+    border-top: 1px solid lightgray;
+}
+
+.faq h3
+{
+    margin: 0px 0px 50px 0px;
+    font-size: 24px;
+}
+
+.faq li > .arrow
+{
+    padding-right: 25px;
+}
