@@ -480,8 +480,16 @@ section.try
     display: none;
 }
 
+@keyframes apparire{
+    0%{opacity : 0.5;}
+    50%{opacity :0.75}
+    100%{opacity : 1} 
+}
+
 .arrow:hover + .faq-p
 {
+    animation-name: apparire;
+    animation-duration: 1s;
     display: block;
 }
 
